@@ -8,7 +8,7 @@
 
 <body>
 	<div class="container-fluid">
-		<div class="jumbotron"><h1>TigerDirect</h1></div> <!-- TODO !-->
+		<div class="jumbotron"><h1>TigerDirect</h1></div>
 			<div class="row">
 				<div class='col-md-4'>
 					<img src="resources/computercase.jpg"/>
