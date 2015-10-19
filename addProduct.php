@@ -18,10 +18,6 @@
 	$quantity = $_POST['quantity'];
 	$tid = $_POST['tid'];
 
-	echo "hi </br>";
-	echo $quantity . "<br>";
-	echo $pid . "<br>"; 
-
 	if( $tid=="NULL") {
 		$update= "INSERT INTO transaction  (bid, uid, items, quantity) VALUES ('3', '1', '$pid', '$quantity')";
 

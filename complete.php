@@ -10,11 +10,6 @@
 	<div id="banner"></div> <!-- TODO !-->
 	<h1> Order Complete! </h1>
 	<?php 
-	/*	foreach ($_POST as $key => $value) {
-			echo "<br/> key----- $key";
-			echo "<br/> value----- $value";
-		} */
-
 		echo "<span>" .$_POST['total']. " was charged to ".$_POST['payment']."</span><br/>";
 
 		for ($i = 0; $i < (int) $_POST['noTransactions']; $i++){

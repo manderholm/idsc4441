@@ -10,7 +10,7 @@
 	<div class="container-fluid">
 		<div class="span12">
 			<h1 class="jumbotron text-center"> Welcome to myCart! </h1>
-			<p class="text-center"> Describe the site here. </p>
+			<p class="text-center"> The internet's shopping cart! </p>
 			<form method="post" action="myCart.php" class="text-center"> 
 				<label> Existing Users Sign In: </label>
 				<input type="text" placeholder="Email" name="email" placeholder="Email Address">
