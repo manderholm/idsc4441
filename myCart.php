@@ -113,7 +113,7 @@ echo "<div class='container-fluid'>";
 					$cv2 = $prodRow['custCol2'];
 					$url = "http://csom-idsdl.oit.umn.edu/ec/and02507/gp/product.php";
 					$prodQuantity = $quantity[$i];
-					$total = $prodQuantity * $price + $cv2; //This is shipping cost for our example.
+					$total = $prodQuantity * $price;
 					$transactionTotal += $total;
 					
 
