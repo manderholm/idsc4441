@@ -159,7 +159,7 @@ echo "<div class='container-fluid'>";
 					echo "<input type='hidden' name='noTransactions' value='$j'>";
 					echo "<input type='hidden' name='totalItems' value='$noItems'>";
 				?>
-				<input type='submit'>
+				<input type='submit' value='checkout'>
 			</form>
 
 			<?php

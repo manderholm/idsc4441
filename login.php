@@ -15,8 +15,8 @@
 				<label> Existing Users Sign In: </label>
 				<input type="text" placeholder="Email" name="email" placeholder="Email Address">
 				<input type="password" placeholder="Password" name="password" placeholder="Password">
-				<input type="submit" name="submit"> <br/>
-				<label> New Users Sign Up: </label> <button> Here </button>
+				<input type="submit" class='btn btn-default' name="submit" value="Sign in"> <br/>
+				<button class="btn btn-default"> Sign Up </button>
 			</form> 
 		</div>
 	</div>
