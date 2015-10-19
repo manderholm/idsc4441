@@ -91,7 +91,7 @@ echo "</div>";
 	echo "</div>";
 echo "<div class='container-fluid'>";
 	echo "<div class='span12 text-center'>";
-				echo "<table border=1 cellspacing=1 class='text-center center-table'>";
+				echo "<table class='table table-striped'>";
 				echo "<tr><th>Name</th><th>$custCol1</th><th>$custCol2</th><th>Price</th><th>Quantity</th><th>Total</th></tr>";
 
 				$transactionTotal = 0;
@@ -113,7 +113,7 @@ echo "<div class='container-fluid'>";
 					$cv2 = $prodRow['custCol2'];
 					$url = "http://csom-idsdl.oit.umn.edu/ec/and02507/gp/product.php";
 					$prodQuantity = $quantity[$i];
-					$total = $prodQuantity * $price;
+					$total = $prodQuantity * $price + $cv2; //This is shipping cost for our example.
 					$transactionTotal += $total;
 					
 
